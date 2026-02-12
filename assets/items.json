@@ -1,0 +1,70 @@
+{
+  "bearings": [
+    "bearings-1.svg",
+    "bearings-2.svg"
+  ],
+  "body-parts": [
+    "body-parts-1.svg",
+    "body-parts-2.svg"
+  ],
+  "brake-discs": [
+    "brake-discs-1.svg",
+    "brake-discs-2.svg"
+  ],
+  "brake-pads": [
+    "brake-pads-1.svg",
+    "brake-pads-2.svg"
+  ],
+  "filters": [
+    "filters-1.svg",
+    "filters-2.svg"
+  ],
+  "gandasa-tools": [
+    "gandasa-tools-1.svg",
+    "gandasa-tools-2.svg"
+  ],
+  "hand-tools": [
+    "hand-tools-1.svg",
+    "hand-tools-2.svg"
+  ],
+  "hoses-pipes": [
+    "hoses-pipes-1.svg",
+    "hoses-pipes-2.svg"
+  ],
+  "lubricants": [
+    "lubricants-1.svg",
+    "lubricants-2.svg"
+  ],
+  "mahindra": [
+    "mahindra-1.svg",
+    "mahindra-2.svg"
+  ],
+  "mahindra-value": [
+    "mahindra-value-1.svg",
+    "mahindra-value-2.svg"
+  ],
+  "mirrors": [
+    "mirrors-1.svg",
+    "mirrors-2.svg"
+  ],
+  "screws-nuts": [
+    "screws-nuts-1.svg",
+    "screws-nuts-2.svg"
+  ],
+  "service-oils": [
+    "service-oils-1.svg",
+    "service-oils-2.svg"
+  ],
+  "shockers": [
+    "shockers-1.svg",
+    "shockers-2.svg"
+  ],
+  "v-belts": [
+    "v-belts-1.svg",
+    "v-belts-2.svg"
+  ],
+  "wiper-blades": [
+    "wiper-blades-1.svg",
+    "wiper-blades-2.svg"
+  ]
+}
