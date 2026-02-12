@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+  <defs>
+    <linearGradient id="carG" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.06"/>
+    </linearGradient>
+    <filter id="carShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="26" stdDeviation="24" flood-color="#000" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#carShadow)" transform="translate(40,90)">
+    <!-- body -->
+    <path d="M120,230 C160,140 300,110 430,110 L650,110 C760,110 860,150 930,220
+             L1000,230 C1040,236 1070,270 1070,314 L1070,330
+             C1070,360 1046,384 1016,384 L980,384
+             C960,425 920,452 872,452 C824,452 784,425 764,384
+             L420,384 C400,425 360,452 312,452 C264,452 224,425 204,384
+             L160,384 C120,384 90,354 90,314 L90,286
+             C90,258 100,242 120,230 Z"
+          fill="url(#carG)" stroke="rgba(255,255,255,0.22)" stroke-width="6" stroke-linejoin="round"/>
+    <!-- windows -->
+    <path d="M280,140 L420,140 C520,140 590,145 650,170 L720,210
+             L310,210 C290,210 275,195 275,175 Z"
+          fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.18)" stroke-width="4" />
+    <path d="M680,178 C740,188 800,205 850,230 L750,230 Z"
+          fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.16)" stroke-width="4" />
+    <!-- details -->
+    <path d="M170,270 H980" stroke="rgba(255,255,255,0.16)" stroke-width="6" stroke-linecap="round"/>
+    <path d="M945,252 C965,258 980,276 980,296" stroke="rgba(255,255,255,0.18)" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <!-- wheels -->
+    <g>
+      <circle cx="312" cy="384" r="76" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.22)" stroke-width="6"/>
+      <circle cx="312" cy="384" r="38" fill="rgba(0,0,0,0.35)" stroke="rgba(255,255,255,0.16)" stroke-width="6"/>
+      <circle cx="872" cy="384" r="76" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.22)" stroke-width="6"/>
+      <circle cx="872" cy="384" r="38" fill="rgba(0,0,0,0.35)" stroke="rgba(255,255,255,0.16)" stroke-width="6"/>
+    </g>
+  </g>
+</svg>
